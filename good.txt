@@ -1,7 +1,0 @@
-ash
-great
-<<<<<<< HEAD
-hey
-=======
-hi
->>>>>>> 02ad14f (hi)
