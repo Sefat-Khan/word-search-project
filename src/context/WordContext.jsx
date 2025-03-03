@@ -20,9 +20,9 @@ export default function WordProvider({ children }) {
   async function bootBooks(filename) {
     setBookTitle(filename); // Update book title state
     try {
-      let response = await fetch(`/books/${filename}.txt`); // Fetching a plain text file
+      let response = await fetch(`books/${filename}.txt`); // Fetching a plain text file
       let text = await response.text(); // Read as text instead of JSON
-      setData(text); // store book content into a state
+      setData(text.replace(/<\/?[^>]+(>|$)/g, "")); // store book content into a state
     } catch (error) {
       console.error("Error fetching book data:", error);
     }

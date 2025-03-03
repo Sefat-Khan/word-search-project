@@ -38,7 +38,7 @@ export default function SideBar() {
         <Button
           styles="hover:text-blue-400 cursor-pointer"
           text="Alice in Wonderland"
-          click={() => bootBooks("AliceinWonderland")}
+          click={() => bootBooks("AliceInWonderland")}
         />
 
         <Button
