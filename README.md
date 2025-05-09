@@ -1,6 +1,8 @@
 Word Search Project
 A simple Word Search game built with HTML, CSS, and JavaScript. This project allows users to play a word search puzzle, where they can find hidden words in a grid of letters.
 
+Preview: word-search-project.netlify.app
+
 Table of Contents
 Installation
 Usage
