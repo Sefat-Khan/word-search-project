@@ -34,7 +34,7 @@ export default function MainContainer() {
     <div className="flex flex-col gap-y-8">
       <img
         className="w-[300px]"
-        src="../../public/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0.png"
+        src="/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0.png"
         alt="books"
       />
       <div className="bg-white rounded-lg p-4">
